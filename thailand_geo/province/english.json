@@ -1,0 +1,310 @@
+[
+  {
+    "id": "10",
+    "name": "Bangkok"
+  },
+  {
+    "id": "11",
+    "name": "Samut Prakarn"
+  },
+  {
+    "id": "12",
+    "name": "Nonthaburi"
+  },
+  {
+    "id": "13",
+    "name": "Pathum Thani"
+  },
+  {
+    "id": "14",
+    "name": "Phra Nakhon Si Ayutthaya"
+  },
+  {
+    "id": "15",
+    "name": "Ang Thong"
+  },
+  {
+    "id": "16",
+    "name": "Lop Buri"
+  },
+  {
+    "id": "17",
+    "name": "Sing Buri"
+  },
+  {
+    "id": "18",
+    "name": "Chai Nat"
+  },
+  {
+    "id": "19",
+    "name": "Saraburi"
+  },
+  {
+    "id": "20",
+    "name": "Chon Buri"
+  },
+  {
+    "id": "21",
+    "name": "Rayong"
+  },
+  {
+    "id": "22",
+    "name": "Chanthaburi"
+  },
+  {
+    "id": "23",
+    "name": "Trat"
+  },
+  {
+    "id": "24",
+    "name": "Chachoengsao"
+  },
+  {
+    "id": "25",
+    "name": "Prachin Buri"
+  },
+  {
+    "id": "26",
+    "name": "Nakhon Nayok"
+  },
+  {
+    "id": "27",
+    "name": "Sa kaeo"
+  },
+  {
+    "id": "30",
+    "name": "Nakhon Ratchasima"
+  },
+  {
+    "id": "31",
+    "name": "Buri Ram"
+  },
+  {
+    "id": "32",
+    "name": "Surin"
+  },
+  {
+    "id": "33",
+    "name": "Si Sa Ket"
+  },
+  {
+    "id": "34",
+    "name": "Ubon Ratchathani"
+  },
+  {
+    "id": "35",
+    "name": "Yasothon"
+  },
+  {
+    "id": "36",
+    "name": "Chaiyaphum"
+  },
+  {
+    "id": "37",
+    "name": "Amnat Charoen"
+  },
+  {
+    "id": "38",
+    "name": "Bueng Kan"
+  },
+  {
+    "id": "39",
+    "name": "Nong Bua Lam Phu"
+  },
+  {
+    "id": "40",
+    "name": "Khon Kaen"
+  },
+  {
+    "id": "41",
+    "name": "Udon Thani"
+  },
+  {
+    "id": "42",
+    "name": "Loei"
+  },
+  {
+    "id": "43",
+    "name": "Nong Khai"
+  },
+  {
+    "id": "44",
+    "name": "Maha Sarakham"
+  },
+  {
+    "id": "45",
+    "name": "Roi Et"
+  },
+  {
+    "id": "46",
+    "name": "Kalasin"
+  },
+  {
+    "id": "47",
+    "name": "Sakon Nakhon"
+  },
+  {
+    "id": "48",
+    "name": "Nakhon Phanom"
+  },
+  {
+    "id": "49",
+    "name": "Mukdahan"
+  },
+  {
+    "id": "50",
+    "name": "Chiang Mai"
+  },
+  {
+    "id": "51",
+    "name": "Lamphun"
+  },
+  {
+    "id": "52",
+    "name": "Lampang"
+  },
+  {
+    "id": "53",
+    "name": "Uttaradit"
+  },
+  {
+    "id": "54",
+    "name": "Phrae"
+  },
+  {
+    "id": "55",
+    "name": "Nan"
+  },
+  {
+    "id": "56",
+    "name": "Phayao"
+  },
+  {
+    "id": "57",
+    "name": "Chiang Rai"
+  },
+  {
+    "id": "58",
+    "name": "Mae Hong Son"
+  },
+  {
+    "id": "60",
+    "name": "Nakhon Sawan"
+  },
+  {
+    "id": "61",
+    "name": "Uthai Thani"
+  },
+  {
+    "id": "62",
+    "name": "Kamphaeng Phet"
+  },
+  {
+    "id": "63",
+    "name": "Tak"
+  },
+  {
+    "id": "64",
+    "name": "Sukhothai"
+  },
+  {
+    "id": "65",
+    "name": "Phitsanulok"
+  },
+  {
+    "id": "66",
+    "name": "Phichit"
+  },
+  {
+    "id": "67",
+    "name": "Phetchabun"
+  },
+  {
+    "id": "70",
+    "name": "Ratchaburi"
+  },
+  {
+    "id": "71",
+    "name": "Kanchanaburi"
+  },
+  {
+    "id": "72",
+    "name": "Suphan Buri"
+  },
+  {
+    "id": "73",
+    "name": "Nakhon Pathom"
+  },
+  {
+    "id": "74",
+    "name": "Samut Sakhon"
+  },
+  {
+    "id": "75",
+    "name": "Samut Songkhram"
+  },
+  {
+    "id": "76",
+    "name": "Phetchaburi"
+  },
+  {
+    "id": "77",
+    "name": "Prachuap Khiri Khan"
+  },
+  {
+    "id": "80",
+    "name": "Nakhon Si Thammarat"
+  },
+  {
+    "id": "81",
+    "name": "Krabi"
+  },
+  {
+    "id": "82",
+    "name": "Phang-nga"
+  },
+  {
+    "id": "83",
+    "name": "Phuket"
+  },
+  {
+    "id": "84",
+    "name": "Surat Thani"
+  },
+  {
+    "id": "85",
+    "name": "Ranong"
+  },
+  {
+    "id": "86",
+    "name": "Chumphon"
+  },
+  {
+    "id": "90",
+    "name": "Songkhla"
+  },
+  {
+    "id": "91",
+    "name": "Satun"
+  },
+  {
+    "id": "92",
+    "name": "Trang"
+  },
+  {
+    "id": "93",
+    "name": "Phatthalung"
+  },
+  {
+    "id": "94",
+    "name": "Pattani"
+  },
+  {
+    "id": "95",
+    "name": "Yala"
+  },
+  {
+    "id": "96",
+    "name": "Narathiwat"
+  }
+]
