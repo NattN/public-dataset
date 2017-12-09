@@ -1,0 +1,170 @@
+product_ID,product_name,cate_main,cate_sub,cost_unit,retail_price_unit,stock_ID
+pid_1,frankfurter,meat and sausage,sausage,5.7,8.6,1
+pid_2,sausage,meat and sausage,sausage,2.2,5.8,1
+pid_3,liver loaf,meat and sausage,sausage,1.8,3.2,1
+pid_4,ham,meat and sausage,sausage,2.1,4.4,1
+pid_5,meat,meat and sausage,sausage,3,5,1
+pid_6,finished products,meat and sausage,sausage,4.2,5.9,1
+pid_7,organic sausage,meat and sausage,sausage,5.5,8.6,1
+pid_8,chicken,meat and sausage,poultry,7.2,9.99,1
+pid_9,turkey,meat and sausage,poultry,9.3,12.99,1
+pid_10,pork,meat and sausage,pork,8.4,15.99,1
+pid_11,beef,meat and sausage,beef,9.8,18.99,1
+pid_12,hamburger meat,meat and sausage,beef,8.9,17.99,1
+pid_13,fish,meat and sausage,fish,11.2,20.99,1
+pid_14,citrus fruit,fruit and vegetables,fruit,0.8,1.1,1
+pid_15,tropical fruit,fruit and vegetables,fruit,0.5,1.5,1
+pid_16,pip fruit,fruit and vegetables,fruit,0.8,1.2,1
+pid_17,grapes,fruit and vegetables,fruit,0.6,1,1
+pid_18,berries,fruit and vegetables,fruit,0.3,1.2,1
+pid_19,nuts/prunes,fruit and vegetables,fruit,0.2,2.1,1
+pid_20,root vegetables,fruit and vegetables,vegetables,0.2,1.6,1
+pid_21,onions,fruit and vegetables,vegetables,0.1,1.3,1
+pid_22,herbs,fruit and vegetables,vegetables,0.05,1.7,1
+pid_23,other vegetables,fruit and vegetables,vegetables,0.08,1,1
+pid_24,packaged fruit/vegetables,fruit and vegetables,packaged fruit/vegetables,1.2,2,1
+pid_25,whole milk,fresh products,dairy produce,1.5,1.9,1
+pid_26,butter,fresh products,dairy produce,2.4,2.6,1
+pid_27,curd,fresh products,dairy produce,1.3,1.5,1
+pid_28,dessert,fresh products,dairy produce,3.6,3.7,1
+pid_29,butter milk,fresh products,dairy produce,1.9,2.3,1
+pid_30,yogurt,fresh products,dairy produce,2.4,2.7,1
+pid_31,whipped/sour cream,fresh products,dairy produce,2.7,2.9,1
+pid_32,beverages,fresh products,dairy produce,3.2,3.4,1
+pid_33,UHT-milk,fresh products,shelf-stable dairy,2.8,3.11,1
+pid_34,condensed milk,fresh products,shelf-stable dairy,1.4,1.8,1
+pid_35,cream,fresh products,shelf-stable dairy,1.8,2.1,1
+pid_36,soft cheese,fresh products,cheese,2.4,2.7,1
+pid_37,sliced cheese,fresh products,cheese,2.95,3.2,1
+pid_38,hard cheese,fresh products,cheese,3.5,3.9,1
+pid_39,cream cheese ,fresh products,cheese,3.2,3.5,1
+pid_40,processed cheese,fresh products,cheese,4.2,3.8,1
+pid_41,spread cheese,fresh products,cheese,3.7,4.1,1
+pid_42,curd cheese,fresh products,cheese,3.5,3.9,1
+pid_43,specialty cheese,fresh products,cheese,4.5,4.8,1
+pid_44,mayonnaise,fresh products,delicatessen,2.3,2.6,1
+pid_45,salad dressing,fresh products,delicatessen,3.7,4.1,1
+pid_46,tidbits,fresh products,delicatessen,2.8,3.3,1
+pid_47,frozen vegetables,fresh products,frozen foods,2.2,2.6,1
+pid_48,frozen fruits,fresh products,frozen foods,2.9,3.1,1
+pid_49,frozen meals,fresh products,frozen foods,3.4,3.7,1
+pid_50,frozen fish,fresh products,frozen foods,13.5,15.4,1
+pid_51,frozen chicken,fresh products,frozen foods,8.1,9.2,1
+pid_52,ice cream,fresh products,frozen foods,4.5,4.8,1
+pid_53,frozen dessert,fresh products,frozen foods,4.7,4.9,1
+pid_54,frozen potato products,fresh products,frozen foods,3.3,3.8,1
+pid_55,domestic eggs,fresh products,eggs,3.5,3.8,1
+pid_56,rolls/buns,fresh products,bread and backed goods,2.88,3.4,1
+pid_57,white bread,fresh products,bread and backed goods,1.5,2.2,1
+pid_58,brown bread,fresh products,bread and backed goods,1.6,1.9,1
+pid_59,pastry,fresh products,bread and backed goods,1.7,2.4,1
+pid_60,roll products ,fresh products,bread and backed goods,2.14,2.3,1
+pid_61,semi-finished bread,fresh products,bread and backed goods,1.9,2.1,1
+pid_62,zwieback,fresh products,bread and backed goods,2.1,2.2,1
+pid_63,potato products,processed food,staple foods,2.5,2.99,1
+pid_64,flour,processed food,staple foods,1.2,1.99,1
+pid_65,salt,processed food,staple foods,2.6,1.89,1
+pid_66,rice,processed food,staple foods,3,4.99,1
+pid_67,pasta,processed food,staple foods,3.5,4.99,1
+pid_68,vinegar,processed food,vinegar/oils,2.3,2.99,1
+pid_69,oil,processed food,vinegar/oils,2.2,2.99,1
+pid_70,margarine,processed food,vinegar/oils,1.6,3.99,1
+pid_71,specialty fat,processed food,vinegar/oils,1.9,2.79,1
+pid_72,sugar,processed food,sweetener,1.4,2.99,1
+pid_73,artificial sweetener,processed food,sweetener,1.2,1.69,1
+pid_74,honey,processed food,sweetener,3.2,4.99,1
+pid_75,mustard,processed food,condiments,2.7,2.99,1
+pid_76,ketchup,processed food,condiments,2.9,3.99,1
+pid_77,spices,processed food,condiments,2.3,2.59,1
+pid_78,soups,processed food,soups/sauces,3,4.69,1
+pid_79,ready soups,processed food,soups/sauces,3.1,4.99,1
+pid_80,Instant food products,processed food,soups/sauces,4.5,5.99,1
+pid_81,sauces,processed food,soups/sauces,3,4.99,1
+pid_82,cereals,processed food,health food,2.99,5.99,1
+pid_83,organic products,processed food,health food,4,4.99,1
+pid_84,baking powder,processed food,bakery improver,2.2,3.99,1
+pid_85,preservation products,processed food,bakery improver,2.8,3.99,1
+pid_86,pudding powder,processed food,pudding powder,2.4,3.29,1
+pid_87,canned vegetables,canned food,canned fruit/vegetables,2.1,3.2,1
+pid_88,canned fruit,canned food,canned fruit/vegetables,2.4,3.5,1
+pid_89,pickled vegetables,canned food,canned fruit/vegetables,2.8,3.7,1
+pid_90,specialty vegetables,canned food,canned fruit/vegetables,2.6,3.6,1
+pid_91,jam,canned food,jam/sweet spreads,1.4,1.9,1
+pid_92,sweet spreads,canned food,jam/sweet spreads,1.6,2.4,1
+pid_93,meat spreads,canned food,meat spreads,2.3,2.9,1
+pid_94,canned fish,canned food,canned fish,5.6,6.7,1
+pid_95,dog food,canned food,pet food/care,6.5,7.8,1
+pid_96,cat food,canned food,pet food/care,6.8,7.9,1
+pid_97,pet care,canned food,pet food/care,8.4,10,1
+pid_98,baby food,canned food,baby food,9.3,11.2,1
+pid_99,coffee,drinks,coffee,4.3,5.59,1
+pid_100,instant coffee,drinks,coffee,5.1,5.89,1
+pid_101,tea,drinks,tea/cocoa drinks,5.2,5.3,1
+pid_102,cocoa drinks,drinks,tea/cocoa drinks,4.5,4.9,1
+pid_103,bottled water,drinks,non-alc. drinks,3.4,4.99,1
+pid_104,soda,drinks,non-alc. drinks,3.8,3.99,1
+pid_105,misc. beverages,drinks,non-alc. drinks,4.3,5.99,1
+pid_106,fruit/vegetable juice,drinks,non-alc. drinks,6.7,7.3,1
+pid_107,syrup,drinks,non-alc. drinks,5.5,5.7,1
+pid_108,bottled beer,drinks,beer,6.9,8.5,1
+pid_109,canned beer,drinks,beer,4.3,6.5,1
+pid_110,brandy,drinks,hard drinks,13.3,30.9,1
+pid_111,whisky,drinks,hard drinks,16.4,40.9,1
+pid_112,liquor,drinks,hard drinks,11.6,35.9,1
+pid_113,rum,drinks,hard drinks,15.8,38.9,1
+pid_114,liqueur,drinks,hard drinks,12,34.9,1
+pid_115,liquor (appetizer),drinks,hard drinks,10.4,32.9,1
+pid_116,white wine,drinks,wine,50.3,119.9,1
+pid_117,red/blush wine,drinks,wine,47.5,89.9,1
+pid_118,prosecco,drinks,wine,55.3,99.9,1
+pid_119,sparkling wine,drinks,wine,51.2,95.9,1
+pid_120,salty snack,snacks and candies,snacks,5.6,7.99,1
+pid_121,popcorn,snacks and candies,snacks,3.4,3.99,1
+pid_122,nut snack,snacks and candies,snacks,4.3,4.99,1
+pid_123,snack products,snacks and candies,snacks,3.6,3.99,1
+pid_124,long life bakery product,snacks and candies,long-life bakery products,4.3,4.99,1
+pid_125,waffles,snacks and candies,long-life bakery products,6.5,7.59,1
+pid_126,cake bar,snacks and candies,long-life bakery products,5.4,7.99,1
+pid_127,chewing gum,snacks and candies,chewing gum,1.3,4.99,1
+pid_128,chocolate,snacks and candies,chocolate,2.3,3.99,1
+pid_129,cooking chocolate,snacks and candies,chocolate,2.6,4.99,1
+pid_130,specialty chocolate,snacks and candies,chocolate,3.3,5.59,1
+pid_131,specialty bar,snacks and candies,chocolate,2.8,4.39,1
+pid_132,chocolate marshmallow,snacks and candies,chocolate,3.4,4.59,1
+pid_133,candy,snacks and candies,candy,1.6,3.99,1
+pid_134,seasonal products,snacks and candies,seasonal products,5.4,7.99,1
+pid_135,detergent,detergent,detergent/softener,20,24.3,1
+pid_136,softener,detergent,detergent/softener,16,23.5,1
+pid_137,decalcifier,detergent,detergent/softener,18,21.6,1
+pid_138,dish cleaner,detergent,cleaner,14,19.9,1
+pid_139,abrasive cleaner,detergent,cleaner,19,24.5,1
+pid_140,cleaner,detergent,cleaner,16,18.4,1
+pid_141,toilet cleaner,detergent,bathroom cleaner,19,21.2,1
+pid_142,bathroom cleaner,detergent,bathroom cleaner,18,24.3,1
+pid_143,hair spray,perfumery,hair care,13,18.99,1
+pid_144,dental care,perfumery,dental care,16,21.99,1
+pid_145,male cosmetics,perfumery,cosmetics,23,25.99,1
+pid_146,make up remover,perfumery,cosmetics,14,16.99,1
+pid_147,skin care,perfumery,cosmetics,18,21.99,1
+pid_148,female sanitary products,perfumery,cosmetics,17,20.99,1
+pid_149,baby cosmetics,perfumery,cosmetics,20,23.99,1
+pid_150,soap,perfumery,soap,4,5.99,1
+pid_151,rubbing alcohol,perfumery,personal hygiene,2,6.99,1
+pid_152,hygiene articles,perfumery,perfumery,2.5,3.99,1
+pid_153,napkins,perfumery,perfumery,1.4,2.29,1
+pid_154,dishes,non-food,non-food kitchen,23,25.99,1
+pid_155,cookware,non-food,non-food kitchen,21.1,24.99,1
+pid_156,kitchen utensil,non-food,non-food kitchen,12.4,15.99,1
+pid_157,cling film/bags,non-food,non-food kitchen,29.6,35.99,1
+pid_158,kitchen towels,non-food,non-food house keeping products,8,17.99,1
+pid_159,house keeping products,non-food,non-food house keeping products,14.4,27.99,1
+pid_160,candles,non-food,non-food house keeping products,3.7,5.99,1
+pid_161,light bulbs,non-food,non-food house keeping products,21.6,31.99,1
+pid_162,sound storage medium,non-food,games/books/hobby,34.7,40.99,1
+pid_163,newspapers,non-food,games/books/hobby,1.7,1.99,1
+pid_164,photo/film,non-food,games/books/hobby,7.4,9.99,1
+pid_165,pot plants,non-food,garden,4.6,7.99,1
+pid_166,flower soil/fertilizer,non-food,garden,2.6,4.99,1
+pid_167,flower (seeds),non-food,garden,6.3,6.99,1
+pid_168,shopping bags,non-food,bags,1.1,1.99,1
+pid_169,bags,non-food,bags,2.1,2.59,1
