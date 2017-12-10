@@ -77,7 +77,7 @@ ts_master <- data.frame("trans_ID" = paste0("ID", sample(1:77777, replace=TRUE, 
                                                 sprintf("%02d", sample(1:59, replace=TRUE, ts_n)), 
                                                 sep = ":"),
                         "amount" = sample(1:20, replace = TRUE, ts_n, prob = c(rep(0.75, 14), rep(0.5, 4), rep(0.2, 2))),
-                        "remark_code" = sample(0:4, replace = TRUE, ts_n, prob = c(rep(0.75, 1), rep(0.5, 3), rep(0.2, 1))))
+                        "payment_type" = sample(0:4, replace = TRUE, ts_n, prob = c(rep(0.75, 1), rep(0.5, 3), rep(0.2, 1))))
 
 
 #### export csv ####
