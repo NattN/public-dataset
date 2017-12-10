@@ -1,0 +1,48 @@
+// branch table
+`branch_ID` int(100) | branch unique ID (primary key)
+`Province` varchar(100) | Thailannd province name
+`District` varchar(100) | Thailannd district name
+`Sub_District` varchar(100) | Thailannd sub-sidtrict name
+
+// customer table
+`cus_ID` int(100) | customer unique ID (primary key)
+`FNAME` varchar(100) | First name
+`LNAME` varchar(100) | Last name
+`SEX` int(1) | 1 = Male, 2 = Female
+`DOB` date | date of birth YYYY-MM-DD
+`Regis_date` date | member registration date YYYY-MM-DD
+`branch_ID` varchar(1000) | member registration branch
+`card_type` varchar(10) | level of member card Gold, Silver, Blonze
+`career` varchar(100) | customer's job title
+
+// employee table
+`emp_ID` int(100) | employee unique ID (primary key)
+`FNAME` varchar(100) | First name
+`LNAME` varchar(100) | Last name
+`DOB` date | date of birth YYYY-MM-DD
+`SEX` int(2) | 1 = Male, 2 = Female
+`branch_ID` int(100) | employee office
+
+// product table
+`product_ID` int(100) | product unique ID (primary key)
+`product_name` varchar(100) | product name
+`cate_main` varchar(100) | product main category
+`cate_sub` varchar(100) | product sub category
+`cost_unit` decimal(20,0) | product cost per unit
+`retail_price_unit` decimal(20,0) | product retail per unit
+`stock_ID` int(100) | product stock ID
+
+// transactions table
+`trans_ID` varchar(100) | transaction ID
+`cus_ID` int(100) | customer ID
+`emp_ID` int(100) | employee ID
+`product_ID` int(100) | product ID
+`branch_ID` int(100) | branch ID, a place where transaction create
+`purchase_date` date | purchase date
+`purchase_time` time | purchase time
+`amount` int(10) | item amount per transaction
+`remark_code` int(100) | payment methods --- 0 = cash, 1 = credit/debit card, 2 = store cash card, 3 = electronic wallet, 4 = bitcoin
+
+
+
+
