@@ -33,7 +33,7 @@ branch_master <- data.frame("branch_ID" = 1:nrow(loc_name),
 
 
 #### Employee dataset ####
-emp_n <- 600
+emp_n <- 500
 emp_name = data.frame(randomNames::randomNames(emp_n, name.order="first.last", sample.with.replacement = F, ethnicity = "Asian"))
 emp_name = data.frame(do.call('rbind', strsplit(as.character(emp_name[,1]),', ',fixed=TRUE)))
 
@@ -46,7 +46,7 @@ employee_master <- data.frame("emp_ID" = 1:emp_n,
 
 
 #### Customer dataset ####
-cus_n <- 10000
+cus_n <- 3000
 cus_name = data.frame(randomNames::randomNames(cus_n, name.order="first.last", sample.with.replacement = F, ethnicity = c("Black", "White")))
 cus_name = data.frame(do.call('rbind', strsplit(as.character(cus_name[,1]),', ',fixed=TRUE)))
 career_name = data.frame(lapply(read.csv("https://raw.githubusercontent.com/NattN/public-dataset/master/machine_learning/Retail_basic/Job_title-1.csv"),
@@ -65,8 +65,8 @@ customer_master <- data.frame("cus_ID" = 1:cus_n,
 
 #### Transction dataset ####
 # single product per transaction (one bill has many items)
-ts_n = 2500000
-ts_master <- data.frame("trans_ID" = paste0("ID", sample(1:77777, replace=TRUE, size=ts_n)),
+ts_n = 500000
+ts_master <- data.frame("trans_ID" = paste0("ID", sample(1:253045, replace=TRUE, size=ts_n)),
                         "cus_ID" = sample(customer_master$cus_ID, replace=TRUE, size=ts_n),
                         "emp_ID" = sample(employee_master$emp_ID, replace=TRUE, size=ts_n),
                         "product_ID" = sample(product_master$product_ID, replace=TRUE, size=ts_n),
