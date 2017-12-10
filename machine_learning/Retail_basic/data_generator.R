@@ -11,7 +11,7 @@ library(dplyr); library(tidyr); library(jsonlite)
 set.seed(1234)
 
 #### Product dataset ####
-product_master <- read.csv("https://github.com/NattN/public-dataset/raw/master/machine_learning/Groceries_detail.csv")
+product_master <- read.csv("https://raw.githubusercontent.com/NattN/public-dataset/master/machine_learning/Retail_basic/Groceries_detail.csv")
 product_master$stock_ID <- sample(1:20, replace=TRUE, size=nrow(product_master))
 product_master$stock_ID[c(1,8,20,6,50,60,143,133)] <- NA # add some NA
 
@@ -42,15 +42,14 @@ employee_master <- data.frame("emp_ID" = 1:emp_n,
                               "LNAME" = emp_name$X2,
                               "DOB" = sample(seq(as.Date('1987/01/01'), as.Date('1997/01/01'), by="day"), replace=TRUE, emp_n),
                               "SEX" = sample(c(1,2), replace=TRUE, size=emp_n),
-                              "branch_ID" = sample(branch_master$branch_ID, replace=TRUE, size=emp_n),
-                              "shift_time" = sample(1:3, replace=TRUE, size=emp_n))
+                              "branch_ID" = sample(branch_master$branch_ID, replace=TRUE, size=emp_n))
 
 
 #### Customer dataset ####
 cus_n <- 10000
 cus_name = data.frame(randomNames::randomNames(cus_n, name.order="first.last", sample.with.replacement = F, ethnicity = c("Black", "White")))
 cus_name = data.frame(do.call('rbind', strsplit(as.character(cus_name[,1]),', ',fixed=TRUE)))
-career_name = data.frame(lapply(read.csv("https://raw.githubusercontent.com/NattN/public-dataset/master/machine_learning/Job_title-1.csv"),
+career_name = data.frame(lapply(read.csv("https://raw.githubusercontent.com/NattN/public-dataset/master/machine_learning/Retail_basic/Job_title-1.csv"),
                                 function(x) {gsub(",", "-", x)} ))
 
 customer_master <- data.frame("cus_ID" = 1:cus_n,
@@ -66,24 +65,28 @@ customer_master <- data.frame("cus_ID" = 1:cus_n,
 
 #### Transction dataset ####
 # single product per transaction (one bill has many items)
-ts_n = 43500000
-ts_master <- data.frame("trans_ID" = paste0("ts_ID", sample(1:900000, replace=TRUE, size=ts_n)),
+ts_n = 2500000
+ts_master <- data.frame("trans_ID" = paste0("ID", sample(1:77777, replace=TRUE, size=ts_n)),
                         "cus_ID" = sample(customer_master$cus_ID, replace=TRUE, size=ts_n),
                         "emp_ID" = sample(employee_master$emp_ID, replace=TRUE, size=ts_n),
                         "product_ID" = sample(product_master$product_ID, replace=TRUE, size=ts_n),
                         "branch_ID" = sample(branch_master$branch_ID, replace=TRUE, size=ts_n),
                         "purchase_date" = sample(seq(as.Date('2017/09/01'), as.Date('2017/12/31'), by="day"), replace=TRUE, ts_n),
+                        "purchase_time" = paste(sprintf("%02d", sample(1:23, replace=TRUE, ts_n)), 
+                                                sprintf("%02d", sample(1:59, replace=TRUE, ts_n)),
+                                                sprintf("%02d", sample(1:59, replace=TRUE, ts_n)), 
+                                                sep = ":"),
                         "amount" = sample(1:20, replace = TRUE, ts_n, prob = c(rep(0.75, 14), rep(0.5, 4), rep(0.2, 2))),
-                        "emp_remark" = NA)
+                        "remark_code" = sample(0:4, replace = TRUE, ts_n, prob = c(rep(0.75, 1), rep(0.5, 3), rep(0.2, 1))))
 
 
 #### export csv ####
 des_path <- "./public-dataset/machine_learning/Retail_basic"
-write.csv(branch_master, paste0(des_path, "/master_branch.csv"), row.names = F, quote = F)
-write.csv(customer_master, paste0(des_path, "/master_customer.csv"), row.names = F, quote = F)
+write.csv(branch_master, paste0(des_path, "/master_branch.csv"), row.names = F, quote = F, na = "")
+write.csv(customer_master, paste0(des_path, "/master_customer.csv"), row.names = F, quote = F, na = "")
 write.csv(product_master, paste0(des_path, "/master_product.csv"), row.names = F, quote = F, na = "")
-write.csv(ts_master, paste0(des_path, "/master_ts.csv"), row.names = F, quote = F)
-write.csv(employee_master, paste0(des_path, "/master_employee.csv"), row.names = F, quote = F)
+write.csv(ts_master, paste0(des_path, "/master_ts.csv"), row.names = F, quote = F, na = "")
+write.csv(employee_master, paste0(des_path, "/master_employee.csv"), row.names = F, quote = F, na = "")
 
 
 
